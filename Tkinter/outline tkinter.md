@@ -175,6 +175,21 @@ One of the main challenges of cross-platform GUI development is making layouts t
 - `Combobox`
 - ...
 
+## Event
+
+### Giới thiệu về event
+
+### `window.mainloop()`
+
+### Phương thức `.bind()`
+
+.bind() always takes at least two arguments:
+
+- An event that’s represented by a string of the form "\<event_name\>", where event_name can be any of Tkinter’s events
+- An event handler that’s the name of the function to be called whenever the event occurs
+
+The event handler is bound to the widget on which .bind() is called. When the event handler is called, the event object is passed to the event handler function.
+
 ---
 
 ### Projects cuối khóa
@@ -182,3 +197,9 @@ One of the main challenges of cross-platform GUI development is making layouts t
 - [Sliding Puzzle Game](https://www.youtube.com/watch?v=vzzEP_YI424)
 - [2048](https://www.youtube.com/watch?v=b4XP2IcI-Bg&t=139s)
 - ...
+
+# Tài liệu tham khảo
+
+- <https://www.pythonguis.com/tutorials/create-gui-tkinter/>
+- <https://realpython.com/python-gui-tkinter/#using-events-and-event-handlers>
+- <https://www.pythontutorial.net/tkinter/tkinter-event-binding/>
